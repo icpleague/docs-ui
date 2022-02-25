@@ -39,7 +39,7 @@ body.dark-mode .header-logo.dark {
 }
 
 .header-title {
-  font-size: 11px;
+  font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.15em;
 }
@@ -59,7 +59,7 @@ body.dark-mode .header-logo.dark {
   }
 
   .header-title {
-    font-size: 11px;
+    font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.15em;
   }
