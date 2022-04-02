@@ -19,6 +19,17 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 0.75rem;
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 5%)!important;
+  border-bottom: 1px solid var(--nav-i-border);
+}
+
+@media screen and (min-width: 1124px) {
+  .navbar  {
+    padding-left: 200px;
+  }
+  .navbar-menu .navbar-item:first-child{
+    border-left: 1px solid var(--nav-i-border);
+  }
 }
 
 .header-logo {
@@ -341,7 +352,7 @@ body.dark-mode .header-logo.dark {
 }
 
 #topbar-nav {
-  margin-left: 40px;
+  margin-left: 78px;
 }
 
 .navbar .button {

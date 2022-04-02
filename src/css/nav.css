@@ -42,6 +42,15 @@
   }
 }
 
+@media screen and (min-width: 1124px) {
+  .nav {
+    padding-left: 200px;
+  }
+  .nav-container {
+    width: 505px!important;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .nav {
     top: var(--navbar-height);
@@ -103,7 +112,7 @@ html.is-clipped--nav {
   flex-grow: 1;
   min-height: 0;
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 0;
   line-height: var(--nav-line-height);
   position: relative;
 }
@@ -113,12 +122,14 @@ html.is-clipped--nav {
   font-weight: var(--body-font-weight-bold);
   color: var(--nav-title-color);
   margin: 0;
-  padding: 0.25em 0 0.125em;
+  padding: 0.25em 0 0.7em;
+  border-bottom: 1px solid var(--toolbar-border-color);
 }
 
 .nav-menu a {
   color: var(--nav-font-color);
 }
+
 .nav-menu a:hover {
   color: var(--nav-hover-font-color);
 }
@@ -130,12 +141,12 @@ html.is-clipped--nav {
 
 .nav-list .nav-list .nav-list .nav-item {
   padding-left: 10px;
-  border-left: 1px solid var(--nav-child-list-border-color);
+  border-left: 2px solid var(--nav-child-list-border-color);
 }
 
 .nav-list .nav-list .nav-list .nav-item.is-current-page,
 .nav-list .nav-list .nav-list .nav-text.is-current-page {
-  border-left: 1px solid var(--nav-current-page-border-color);
+  border-left: 2px solid var(--nav-current-page-border-color);
 }
 
 .nav-menu > .nav-list {

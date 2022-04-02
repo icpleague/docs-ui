@@ -150,7 +150,8 @@
   --input-background-color: var(--color-smoke-50);
   --input-border-color: var(--color-smoke-90);
   /* nav */
-  --nav-background: var(--panel-background);
+  --nav-background: rgba(245,247,249,1.00);
+  --nav-i-border: rgba(211,220,228,1.00);
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
   --nav-font-color: var(--color-light-text-secondary);
@@ -164,7 +165,7 @@
   --nav-secondary-background: var(--color-smoke-70);
   /* toolbar */
   --toolbar-background: var(--panel-background);
-  --toolbar-border-color: var(--panel-border-color);
+  --toolbar-border-color: rgba(211,220,228,1.00);
   --toolbar-font-color: var(--color-gray-70);
   --toolbar-muted-color: var(--color-gray-30);
   --page-version-menu-background: var(--color-smoke-70);
@@ -265,6 +266,7 @@ body.dark-mode {
   --panel-border-color: var(--color-gray-800);
   --toolbar-border-color: var(--color-gray-800);
   --nav-panel-divider-color: var(--color-gray-800);
+  --nav-i-border: var(--color-gray-800);;
 
   --nav-title-color: var(--color-white);
   --nav-muted-color: var(--color-gray-200);
